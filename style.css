@@ -1,0 +1,239 @@
+body{
+    background-color: whitesmoke;
+}
+.naslov{
+    color: whitesmoke;
+    text-align: center;
+    background-color: #04012a;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+   
+
+}
+.glmeni{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;  
+    display: flex;
+    justify-content: space-between;
+    background-image: url('img/bela.jpg');
+    background-size: cover;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    
+    
+    
+    
+}
+
+.glmeni .sadrzaj{
+width: 140px;
+height: 60px;
+border: 3px solid #04012a;
+border-radius: 20%;
+background-color: #2d545e;
+
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.glmeni .sadrzaj a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.glmeni .sadrzaj a:hover{
+    color: rgba(255, 255, 255, 0.666);
+      
+}
+
+.slika img{
+width: 100px;
+height: 100px;
+}
+.slika img:hover{
+    animation: rotacija 1s infinite;
+}
+@keyframes rotacija {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+ul{
+    font-weight: bold;
+    color: #2d545e;
+    font-size: 20px;
+}   
+.ponuda
+{
+    display: flex;
+     background-image: url('img/proba.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover ;
+     margin: auto;
+     align-items: center;
+     width: 1000px;
+     height: 600px;
+     border-radius: 3%;
+     border: 4px solid gold;
+     
+}
+h2{
+    color:#2d545e;
+    text-align: center;
+    
+}
+h1{
+    color:#ffffff;
+    text-align: center;
+}
+ p{
+    font-size: 20px;
+    margin: 0px 40px;
+    text-align: justify;
+    
+}
+.ponuda .vozilo{   
+    border: 2px double gold;
+    
+    border-radius: 40px;
+   height: 450px;
+    width: 220px;
+    margin: auto;
+    background-image: url('img/logo.jpg');
+    background-size: cover;
+    color: rgba(245, 245, 245, 0);
+    
+   
+}
+.ponuda .vozilo img{
+    width: 100%;
+    height: 160px;
+}
+.ponuda .vozilo p{
+    margin: 5px 5px;
+    text-align: center;
+}
+.ponuda .vozilo:hover{
+background-color: #04012a;
+    
+    background-image: none;
+    color: rgb(255, 255, 255);
+    border: 2px double rgb(255, 187, 0);
+    width: 300px;
+  
+  
+    
+}
+
+
+.pocetak a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #04012a;
+    border: 2px solid gold;
+    
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 0px;
+
+
+}
+footer{
+    background-color: #04012a;
+    text-align: center;
+    color: whitesmoke;
+    padding: 30px;
+    
+    
+    
+}
+table{
+    background-color: #2d545e;
+    color: white;
+   
+    border: 3px solid black;
+    width: 75%;
+    margin: 20px auto;
+   
+}
+.tabele
+
+th, td{
+    border: 1px solid black;
+}
+
+.forme{
+    background-image: url('img/put.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 20px;
+    width: 50%;
+   margin: 50px;
+   padding: 10px;
+   
+   font-weight: bold;
+
+}
+.forme input{
+    background-color: rgb(193, 238, 255);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.forme input:hover{
+    background-color: rgba(193, 238, 255, 0.522);
+}
+.forme button{
+    background-color: white;
+    border-radius: 20px;
+    width: 70px;
+}
+.forme button:hover{
+    background-color:#04012a;
+    color: white;
+}
+img{
+    margin: 20px auto;
+    display: flex;
+    height: 30%;
+    width: 60%;
+}
+
+
+.animacija img{
+    animation: pomeranje 10s linear infinite;
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}
+
+@keyframes pomeranje {
+ 
+    from{
+        left: -100%;
+    }
+
+    to{
+        left: 100%;
+    }
+}
+@media screen and (min-width:320px) and (max-width:425px)
+{
+   .glmeni .sadrzaj a{
+    color: red;
+   }
+}
+
